@@ -51,7 +51,7 @@ int main()
         int tmplen=0;
         while(ch!=' ' && ch !='@')
         {
-            if(ch!='\r')
+            if(ch!='\r')//过滤掉Win系统会产生的回车
             {
             tmpstr[tmplen]=ch;
             tmplen++;
